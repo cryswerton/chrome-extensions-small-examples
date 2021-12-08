@@ -1,0 +1,16 @@
+{
+    "name": "New Tab Example",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "browser_action": {
+        
+    },
+    "permissions": [
+        "activeTab",
+        "clipboardWrite"
+    ],
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    }
+}
